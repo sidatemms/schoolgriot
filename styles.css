@@ -1,0 +1,248 @@
+@media only screen and (max-width: 667px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+
+  /* nav */
+
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    position: relative;
+    background-color: white;
+    padding: 12px 20px;
+    list-style-type: none;
+  }
+
+  .navbar a {
+    color: black;
+    font-size: small;
+  }
+
+  .logo img {
+    width: 80px;
+  }
+
+  /* body */
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  body {
+    font-family: "Poppins", sans-serif;
+    background-image: url(nguruh.fotos/ACHTERGROND.png);
+    color: black;
+    background-size: 100%;
+  }
+
+  .top {
+    max-width: 100%;
+    filter: brightness(50%);
+  }
+}
+
+.background {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.intro {
+  margin: 1.8em;
+  background-color: #f4a400;
+  padding: 1em;
+  border-radius: 1em;
+  border: black;
+  border-width: 5px;
+  border-style: solid;
+}
+
+/* pagina verhaal */
+
+.verhaal {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+.verhaaltekst h1 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.verhaaltekst img {
+  max-width: 15em;
+
+  position: absolute;
+  top: 10em;
+  right: 4.25em;
+}
+
+.verhaaltekst ul {
+  margin: 7.5em 2em 2em;
+  padding: 8.5em 0 1em 0;
+
+  display: grid;
+  grid-template-columns: 2em 1fr 1em 1fr 2em;
+  list-style-type: none;
+  border: 0.25em solid white;
+
+  row-gap: 1em;
+
+  background-color: #f4a400;
+}
+
+.verhaaltekst ul li:nth-of-type(1),
+.verhaaltekst ul li:nth-of-type(2),
+.verhaaltekst ul li:nth-of-type(3),
+.verhaaltekst ul li:nth-of-type(4),
+.verhaaltekst ul li:nth-of-type(5) {
+  grid-column: 2/5;
+}
+
+.verhaaltekst .recycle {
+  max-width: 10em;
+  top: 13em;
+  right: 6.8em;
+}
+
+.verhaal a {
+  color: #f4a400;
+}
+.verhaalbalk {
+  margin: 0;
+  margin-bottom: 4em;
+  background-color: black;
+  padding: 1em;
+  color: white;
+}
+
+/* pagina tassen */
+
+.tassen a {
+  color: #f4a400;
+}
+
+.tassenbalk {
+  margin: 0;
+  margin-bottom: 4em;
+  background-color: black;
+  padding: 1em;
+  color: white;
+}
+
+/* pagina eco */
+
+.eco {
+  font-size: large;
+}
+
+.ecobalk {
+  margin: 0;
+  margin-bottom: 4em;
+  background-color: black;
+  padding: 1em;
+  color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  background-color: black;
+  padding: 1em;
+  border-radius: 0;
+  color: white;
+}
+
+footer ul{
+  list-style-type: none;
+}
+
+.piccas {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 2em;
+  /* margin-bottom: 1em; */
+}
+
+.nguruh {
+  width: 40%;
+}
+
+.taspagina h1 {
+  padding-top: 2em;
+  padding-bottom: 1em;
+  text-align: center;
+}
+
+.taspagina ul {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: 0;
+
+  display: grid;
+  grid-template-columns: 1em 1fr 1em 1fr 1em;
+  row-gap: 1em;
+
+  list-style-type: none;
+}
+
+.taspagina img {
+  max-width: 10em;
+}
+
+.taspagina ul li:nth-of-type(1),
+.taspagina ul li:nth-of-type(3) {
+  grid-column: 2/3;
+}
+
+.taspagina ul li:nth-of-type(2),
+.taspagina ul li:nth-of-type(4) {
+  grid-column: 4/5;
+}
+
+.taspagina li {
+  display: flex;
+  justify-content: center;
+}
+
+.taspagina ul li:nth-of-type(5) {
+  grid-column: 2/5;
+}
+
+.taspagina p {
+  text-align: center;
+  margin-left: 1em;
+  margin-right: 1em;
+  background-color: white;
+  border-radius: 10px;
+  padding: 1em;
+}
+
+.taspagina ul li:nth-of-type(5) img {
+  max-width: 15em;
+}
+
+.tekst-top h1 {
+  position: absolute;
+  top: 8.8em;
+  right: 4em;
+  left: 4em;
+
+  text-align: center;
+  font-size: 1em;
+  color: white;
+  font-weight: 200;
+}
